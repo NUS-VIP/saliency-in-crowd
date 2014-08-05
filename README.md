@@ -38,8 +38,8 @@ Contents
 
 ## Dependencies
 
-- lib/gbvs 							  [Graph-Based Visual Saliency](http://www.vision.caltech.edu/~harel/share/gbvs.php)
-- lib/simplemkl 				      [LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
+- lib/gbvs 							  Graph-Based Visual Saliency http://www.vision.caltech.edu/~harel/share/gbvs.php
+- lib/simplemkl 				      LIBLINEAR http://www.csie.ntu.edu.tw/~cjlin/liblinear/
 
 Getting Started
 ================

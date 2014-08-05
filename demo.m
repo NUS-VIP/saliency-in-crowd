@@ -17,12 +17,15 @@ tic;
 addpath(genpath('src'));
 
 % initialize GBVS
+
 cd lib/gbvs
 gbvs_install
 cd ../..
 
 % initialize simplemkl
 addpath('lib/simplemkl');
+
+
 toc;
 
 % load parameters
