@@ -24,7 +24,17 @@ cd ../..
 
 % initialize simplemkl
 addpath('lib/simplemkl');
+cd lib/simplemkl
+mex vectorize.c
+mex vectorize_single.c
+mex devectorize.c
+mex devectorize_single.c
+cd ../..
 
+% compile auc helper
+cd src/metric
+mex -D__MEX auc_steps_helper.cpp
+cd ../..
 
 toc;
 
