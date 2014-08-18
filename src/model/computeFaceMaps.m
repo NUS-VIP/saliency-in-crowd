@@ -40,7 +40,7 @@ for i = 1 : params.nStimuli
     end
      
     for k = 1 : n
-        map = imresize(maps(:, :, k), [params.out.height params.out.width], 'nearest');
+        map = imresize(maps(:, :, k), [params.out.height params.out.width]);
         map = imfilter(map, params.out.gaussian);
         map = normalise(map);
         imwrite(map, fullfile(outputPath{k}, fileName));
